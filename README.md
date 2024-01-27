@@ -41,6 +41,6 @@ The integrated receiver unit passes the infrared information, which is sent by t
 
 ## Implementation
 
-![](E:\IC_design\Verilog\FPGA_S6\infrared_rcv\doc\infrared_rcv_waveform1.png)
+![infrared_rcv_waveform1](https://github.com/KaihaoYuHW/Verilog_infrared-remote-control/blob/main/doc/infrared_rcv_waveform1.png)
 
-![](E:\IC_design\Verilog\FPGA_S6\infrared_rcv\doc\infrared_rcv_waveform2.png)
+![infrared_rcv_waveform2](https://github.com/KaihaoYuHW/Verilog_infrared-remote-control/blob/main/doc/infrared_rcv_waveform2.png)
