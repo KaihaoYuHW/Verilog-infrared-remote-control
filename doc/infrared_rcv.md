@@ -2,7 +2,7 @@
 
 ## module diagram
 
-![](E:\IC_design\Verilog\FPGA_S6\infrared_rcv\doc\infrared_rcv_module.png)
+![infrared_rcv_module](https://github.com/KaihaoYuHW/Verilog_infrared-remote-control/blob/main/doc/infrared_rcv_module.png)
 
 ## Signals
 
@@ -23,4 +23,4 @@
 
 ## state transition diagram
 
-![](E:\IC_design\Verilog\FPGA_S6\infrared_rcv\doc\infrared_rcv_state_transition_diagram.png)
+![infrared_rcv_state_transition_diagram](https://github.com/KaihaoYuHW/Verilog_infrared-remote-control/blob/main/doc/infrared_rcv_state_transition_diagram.png)
