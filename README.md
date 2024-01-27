@@ -1,8 +1,15 @@
 # infrared remote control
+## project structure
+- "doc": the information for each module (see .md)
 
+- "rtl": the implementation of all modules (see .v)
+
+- "sim": all testbenches of each module
+
+***
 ## an Infrared Remote Control System
 
-![](E:\IC_design\Verilog\FPGA_S6\infrared_rcv\doc\Infrared Remote Control System.png)
+![Infrared Remote Control System](https://github.com/KaihaoYuHW/Verilog_infrared-remote-control/blob/main/doc/Infrared%20Remote%20Control%20System.png)
 
 Finally, the demodulated signal will be put into the FPGA for decoding.
 
@@ -16,11 +23,11 @@ When a button is pressed on the remote control, it emits a frame of data, consis
 
 When address code is 00000000, and data code is 10101101, the frame of data seems like following: 
 
-![](E:\IC_design\Verilog\FPGA_S6\infrared_rcv\doc\a frame of data.png)
+![a frame of data](https://github.com/KaihaoYuHW/Verilog_infrared-remote-control/blob/main/doc/a%20frame%20of%20data.png)
 
 The function of the lead code is to send a repeat code at regular intervals when the button is pressed continuously.
 
-![](E:\IC_design\Verilog\FPGA_S6\infrared_rcv\doc\a repeat code.png)
+![a repeat code](https://github.com/KaihaoYuHW/Verilog_infrared-remote-control/blob/main/doc/a%20repeat%20code.png)
 
 ## Experiment Goals
 
@@ -30,7 +37,7 @@ Use the FPGA board with a infrared remote control to transmit infrared signals. 
 
 The integrated receiver unit passes the infrared information, which is sent by the infrared remote control, into the FPGA for decoding using the infrared receiver module (infrared_rcv). If the received information matches the protocol, it will be transmitted to the seven-segment display module for display. If a repeat code is detected, the repeat code enable signal will be sent into the LED control module to make the LED flash.
 
-![](E:\IC_design\Verilog\FPGA_S6\infrared_rcv\doc\top_module.png)
+![top_module](https://github.com/KaihaoYuHW/Verilog_infrared-remote-control/blob/main/doc/top_module.png)
 
 ## Implementation
 
