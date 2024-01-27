@@ -2,7 +2,7 @@
 
 ## module diagram
 
-![](E:\IC_design\Verilog\FPGA_S6\infrared_rcv\doc\led_ctrl_module.png)
+![led_ctrl_module](https://github.com/KaihaoYuHW/Verilog_infrared-remote-control/blob/main/doc/led_ctrl_module.png)
 
 ## signals
 
@@ -19,8 +19,8 @@
 
 ## waveform
 
-![](E:\IC_design\Verilog\FPGA_S6\infrared_rcv\doc\led_ctrl_waveform1.png)
+![led_ctrl_waveform1](https://github.com/KaihaoYuHW/Verilog_infrared-remote-control/blob/main/doc/led_ctrl_waveform1.png)
 
-![](E:\IC_design\Verilog\FPGA_S6\infrared_rcv\doc\led_ctrl_waveform2.png)
+![led_ctrl_waveform2](https://github.com/KaihaoYuHW/Verilog_infrared-remote-control/blob/main/doc/led_ctrl_waveform2.png)
 
-![](E:\IC_design\Verilog\FPGA_S6\infrared_rcv\doc\led_ctrl_waveform3.png)
+![led_ctrl_waveform3](https://github.com/KaihaoYuHW/Verilog_infrared-remote-control/blob/main/doc/led_ctrl_waveform3.png)
